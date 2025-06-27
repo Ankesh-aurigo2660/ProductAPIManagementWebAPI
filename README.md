@@ -15,6 +15,8 @@ This Web API project is presented with 7 endpoints namely below:
 2. Have a local SQL server running in your system.
 3. In appsettings.json, please specify your server name
 4. Being its Code First approach using Entity framework, so we have entity class "Product.cs" that will create a corresponding table "Products" in the DB with name "ProductManagementDB" in your local SQL server on running below commands via Package Manager Console:
-   add-migration "new migration"
-   update-database
+
+add-migration "new migration"
+update-database
+
 5. Now this Web API project is ready to run, launch it and get the 7 end points in Swagger UI.
